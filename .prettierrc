@@ -1,0 +1,50 @@
+{
+  "plugins": ["prettier-plugin-tailwindcss"],
+  "tailwindConfig": "./tailwind.config.js",
+  "overrides": [
+    {
+      "files": "*.tsx",
+      "options": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true,
+        "editor.tabSize": 2,
+        "tabWidth": 2,
+        "useTabs": false,
+        "singleQuote": true,
+        "jsxSingleQuote": true,
+        "arrowParens": "always",
+        "semi": true,
+        "trailingComma": "none",
+        "printWidth": 100,
+        "quoteProps": "preserve"
+      }
+    },
+    {
+      "files": "*.cy.js",
+      "options": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true,
+        "editor.tabSize": 2,
+        "tabWidth": 2,
+        "useTabs": false,
+        "singleQuote": true,
+        "jsxSingleQuote": true,
+        "arrowParens": "always",
+        "semi": true,
+        "trailingComma": "none",
+        "printWidth": 100,
+        "quoteProps": "preserve"
+      }
+    },
+    {
+      "files": "*.css",
+      "options": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true,
+        "editor.tabSize": 2,
+        "tabWidth": 2,
+        "useTabs": false
+      }
+    }
+  ]
+}
